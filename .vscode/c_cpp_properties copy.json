@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/.pio/libdeps/m5stack-timer-cam/Timer-CAM/src",
+                "${workspaceFolder}/.pio/libdeps/m5stack-timer-cam/ArduinoHttpClient/src",
+                "C:/.platformio/packages/framework-arduinoespressif32/cores/esp32",
+                "C:/.platformio/packages/framework-arduinoespressif32/variants/m5stack_timer_cam",
+                "C:/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                "C:/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "C:/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/.pio/libdeps/m5stack-timer-cam",
+                    "C:/.platformio/packages/framework-arduinoespressif32"
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "ESP32",
+                "CORE_DEBUG_LEVEL=0",
+                "ARDUINO_ARCH_ESP32",
+                "ARDUINO_VARIANT=\"m5stack_timer_cam\"",
+                "ARDUINO_BOARD=\"M5Stack Timer CAM\"",
+                "ARDUINO=10607",
+                "F_CPU=240000000L"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
