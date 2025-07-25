@@ -27,8 +27,8 @@ ESP32ベースのM5TimerCAMを使用した自動タイマー撮影システム�
 pip install platformio
 
 # プロジェクトクローン
-git clone https://github.com/yourusername/timer-cam-project.git
-cd timer-cam-project
+git clone https://github.com/kamiyamanabu/m5-timer-camera-photo-system.git
+cd m5-timer-camera-photo-system
 ```
 
 ### 2. 設定ファイル作成
@@ -137,7 +137,7 @@ FOR INSERT WITH CHECK (bucket_id = 'photos');
 
 ### プロジェクト構造
 ```
-timer-cam-project/
+m5-timer-camera-photo-system/
 ├── src/
 │   ├── main.cpp           # メインプログラム
 │   ├── config.h           # 設定ファイル (git除外)
@@ -164,7 +164,7 @@ Issue・Pull Requestを歓迎します。
 
 ## 作者
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@kamiyamanabu](https://github.com/kamiyamanabu)
 
 ---
 
